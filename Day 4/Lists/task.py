@@ -1,0 +1,2 @@
+
+fruites = ["Cherry" "Apple", "Pearl"]

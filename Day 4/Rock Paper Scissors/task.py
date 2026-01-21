@@ -50,9 +50,7 @@ else:
 ## Optimized:
 
 import random
-
 comps =  ['rock', 'paper', 'scissors']
-
 ai1 = random.choice(comps)
 ai2 = random.choice(comps)
 print(ai1,ai2)

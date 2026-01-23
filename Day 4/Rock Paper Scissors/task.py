@@ -47,7 +47,7 @@ scissors = '''
 
 
 
-## Optimized:
+## Optimized oop code:
 
 import random
 class RockPaperScissors:
@@ -77,4 +77,6 @@ class RockPaperScissors:
 if __name__ == "__main__":
     game = RockPaperScissors()
     game.play()
+
+
 

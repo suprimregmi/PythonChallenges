@@ -52,31 +52,5 @@ scissors = '''
 import random
 class RockPaperScissors:
     def __init__(self):
-        self.options = ['rock', 'paper', 'scissors']
-        self.rules = {
-            'rock': 'scissors',
-            'scissors': 'paper',
-            'paper': 'rock'
-        }
-    def get_choice(self):
-        return random.choice(self.options)
-
-    def determine_winner(self, ai1, ai2):
-        if ai1 == ai2:
-            return "It's a tie"
-        elif self.rules[ai1] == ai2:
-            return f"AI1 wins, chose {ai1}"
-        else:
-            return f"AI2 wins, chose {ai2}"
-    def play(self):
-        ai1 = self.get_choice()
-        ai2 = self.get_choice()
-        print("AI1:", ai1)
-        print("AI2:", ai2)
-        print(self.determine_winner(ai1, ai2))
-if __name__ == "__main__":
-    game = RockPaperScissors()
-    game.play()
-
-
-
+        self.options = ['Rock', 'Paper', 'Scissors']
+        self.rules = {'Rock': S, 'Paper Scissors': None, 'Scissors': None}

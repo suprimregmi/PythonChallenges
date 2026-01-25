@@ -49,8 +49,26 @@ scissors = '''
 
 ## Optimized oop code:
 
+'''
+#Steps
+--> Create Class
+ --> init and: define options add rule
+ --> Create choice for ai function
+ --> play game: here pas player 1 and to and passs the choices in winner_function
+'''
 import random
-class RockPaperScissors:
+class RockPaperScissors(object):
     def __init__(self):
-        self.options = ['Rock', 'Paper', 'Scissors']
-        self.rules = {'Rock': S, 'Paper Scissors': None, 'Scissors': None}
+        choose = ['rock','paper','scissors']
+        rule =  {
+            'rock': 'scissors',
+            'scissors': 'paper',
+            'paper': 'rock'
+        }
+    def playerschoice(self):
+        return random.choice(self.choose)
+    def winner_function(self,player1,player2):
+        if player1==player2:
+            return 'tie'
+        elif self.rules[player1]== player2:
+

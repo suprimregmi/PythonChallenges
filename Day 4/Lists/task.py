@@ -1,2 +1,0 @@
-
-fruites = ["Cherry" "Apple", "Pearl"]
